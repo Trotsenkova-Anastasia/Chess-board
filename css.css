@@ -1,0 +1,40 @@
+html,body
+{
+	height:100%;
+}
+*
+{
+	margin:0px;
+	padding:0px;
+}
+.chess
+{
+	border:5px solid groove;
+	max-width:960px;
+	margin:0px auto;
+}
+.table-chess
+{
+	margin:0px auto;
+	border-collapse:collapse;
+	background:#FFDAB9;
+}
+.table-chess th, .table-chess td
+{
+	width:50px;
+	height:50px;
+	border:1px solid brown;
+	
+}
+.table-chess th
+{
+	font-size:25px;
+}
+.table-chess tr:nth-child(odd) td:nth-child(even)
+{
+	background:#8B4513;
+}
+.table-chess tr:nth-child(even) td:nth-child(odd)
+{
+	background:#8B4513;
+}
